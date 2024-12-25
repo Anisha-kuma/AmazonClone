@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border box;
+}
+.navbar{
+ background-color: #0F1111; 
+ color: white;  
+ height: 60px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.amazon_logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width:130px;
+    height:50px;
+}
+.location{
+    width:186px;
+    height:50px;
+    margin-top: 10px;
+}
+#text1{
+    margin-left: 20px;
+     width: 150px;
+     height: 14px;
+     font-size: 0.7rem;
+}
+
+/*#loc_icon{
+    width: 15px;
+    height: 18px;
+}*/
+#text{
+    display: flex;
+}
+#text2{
+    margin-left: 2px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.border{
+    
+    border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+.search{
+  display: flex;
+  align-items: center;
+  
+  width: 600px;
+  height: 30px;
+  border-radius: 4px;
+  
+   
+}
+#search1{
+    
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+#search2{
+    width: 100%;
+    font-size: 1rem;
+    height: 15px;
+    border: none;
+    
+}
+#serch3{
+    margin-left: 2px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: orange;
+    
+
+}
+.search:hover{
+    border: 2px solid orange;
+}
+.hello{
+    width:130px;
+    height:50px;
+    
+}
+.box{
+    font-size:12px;
+    width:70px;
+    height:14px;
+}
+.select{
+  display: flex;
+  font-size: 14px;
+  width:113px;
+    height:15px;
+    font-weight: 500;
+}
+#search5{
+    margin-top: 2px;
+    width:15px;
+    height:10px;
+
+}
+.return{
+    margin-top: 5px;
+    width:77px;
+    height:40px;
+}
+.flag{
+    display: flex;
+}
+#sel{
+    margin-left: 2px;
+    width:15px;
+    height:10px;
+    
+}
+#eng{
+    margin-left: 2px;
+    font-size: 0.8rem;
+}
+.cart{
+    display: flex;
+}
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-op p{
+    display:inline;
+    margin-left: 15px;
+    align-items: center;
+}
+.panel-op{
+    
+    width: 75%;
+    font-size: 0.85rem;
+}
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+.hero{
+    height: 300px;
+    background-image: url(hero_image.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.text{
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.text a{
+    color:#007185;
+}
+.pics{
+    display: flex;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+    
+}
+.boxi{
+    border: 2px solid black;
+    background-color: white;
+    height: 300px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5px;
+}
+.box-img{
+    height: 220px;
+   background-size: cover;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+h2{
+    margin: 20px;
+}
+footer{
+    margin-top:50px;
+}
+.foot-panel{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+    
+
+}
+.foot-panel2{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 200px;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.panel3{
+    background-color: #222f3d;
+    color: while;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+.panel4{
+    background-color: #222f3d;
+    color: white;
+    height: 80px;
+   /* display: flex;
+    justify-content: center;
+    align-items: centre;*/
+
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding top:25px;
+}
+.copy{
+    font-size: 0.7rem;
+    text-align: center;
+    padding top:25px;
+}
